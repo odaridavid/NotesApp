@@ -28,7 +28,7 @@ class DetailActivity : AppCompatActivity() {
     lateinit var imageView: ImageView
     lateinit var pickImage: Button
 
-
+    //Camera permision
     val cameraPermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
 
@@ -42,6 +42,8 @@ class DetailActivity : AppCompatActivity() {
 
 
         }
+
+    //Storage permission
     val storagePermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
 
@@ -57,6 +59,7 @@ class DetailActivity : AppCompatActivity() {
 
         }
 
+    //Launch camera
     private val cameraLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
 
@@ -65,6 +68,8 @@ class DetailActivity : AppCompatActivity() {
                 imageView.setImageBitmap(bitmap)
             }
         }
+
+    //Launch Gallery
     private val galleryLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
 
