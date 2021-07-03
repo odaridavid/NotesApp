@@ -28,7 +28,6 @@ class DetailActivity : AppCompatActivity() {
     lateinit var imageView: ImageView
     lateinit var pickImage: Button
 
-
     //Camera permision
     val cameraPermission =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
@@ -59,7 +58,6 @@ class DetailActivity : AppCompatActivity() {
 
 
         }
-
 
     //Launch camera
     private val cameraLauncher =
