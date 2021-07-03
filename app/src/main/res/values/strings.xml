@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">NotesApp</string>
+
+    <string name="hint_enter_your_thought_title">Enter Title</string>
+    <string name="hint_enter_your_thought_body">Enter Body</string>
+    <string name="my_thoughts">My Thoughts</string>
+</resources>
