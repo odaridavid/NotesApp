@@ -12,12 +12,6 @@
         android:hint="@string/hint_enter_your_thought"
         android:inputType="text" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hint_enter_your_phone_number"
-        android:inputType="phone"/>
-
     <Button
         android:id="@+id/saveYourThoughtsButton"
         android:layout_width="wrap_content"
@@ -25,12 +19,5 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:text="Save" />
-
-    <TextView
-        android:id="@+id/viewYourThoughtsTextView"
-        android:layout_width="match_parent"
-        android:layout_margin="16dp"
-        android:layout_height="wrap_content"
-        android:visibility="invisible" />
 
 </LinearLayout>
